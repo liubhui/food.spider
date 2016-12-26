@@ -1,0 +1,1 @@
+package com.food.spider.spider;/** * Created by user on 16-12-3. */public class SpiderFactory {    private static JsoupSpider jsoupSpider = new  JsoupSpider();    public static ISpider getSpider(){        return jsoupSpider;    }}
